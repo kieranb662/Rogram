@@ -12,8 +12,12 @@ struct Feed: View {
     
     var body: some View {
         NavigationStack {
-            List(viewModel.models) { model in
-                Card(model: model)
+            ScrollView {
+                LazyVStack {
+                    ForEach(viewModel.models) { model in
+                        Card(model: model)
+                    }
+                }
             }
             .navigationTitle("Rogram")
         }
