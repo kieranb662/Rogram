@@ -12,6 +12,7 @@
 		89F2AC8D2BFFD83F00D7BC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F2AC8C2BFFD83F00D7BC08 /* Assets.xcassets */; };
 		89F2AC902BFFD83F00D7BC08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F2AC8F2BFFD83F00D7BC08 /* Preview Assets.xcassets */; };
 		89F2AC972BFFD89F00D7BC08 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2AC962BFFD89F00D7BC08 /* Model.swift */; };
+		89F2AC992BFFD92D00D7BC08 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2AC982BFFD92D00D7BC08 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		89F2AC8C2BFFD83F00D7BC08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89F2AC8F2BFFD83F00D7BC08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89F2AC962BFFD89F00D7BC08 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		89F2AC982BFFD92D00D7BC08 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				89F2AC882BFFD83E00D7BC08 /* RogramApp.swift */,
 				89F2AC8A2BFFD83E00D7BC08 /* ContentView.swift */,
+				89F2AC982BFFD92D00D7BC08 /* Card.swift */,
 				89F2AC962BFFD89F00D7BC08 /* Model.swift */,
 				89F2AC8C2BFFD83F00D7BC08 /* Assets.xcassets */,
 				89F2AC8E2BFFD83F00D7BC08 /* Preview Content */,
@@ -143,6 +146,7 @@
 				89F2AC972BFFD89F00D7BC08 /* Model.swift in Sources */,
 				89F2AC8B2BFFD83E00D7BC08 /* ContentView.swift in Sources */,
 				89F2AC892BFFD83E00D7BC08 /* RogramApp.swift in Sources */,
+				89F2AC992BFFD92D00D7BC08 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
