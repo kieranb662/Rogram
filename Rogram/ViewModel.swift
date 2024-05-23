@@ -10,7 +10,7 @@ import Foundation
 
 @Observable
 class ViewModel {
-    let endpoint = URL(string: "https://jsonplaceholder.typicode.com/album/1/photos")
+    private let endpoint = URL(string: "https://jsonplaceholder.typicode.com/album/1/photos")
     var models: [Model] = []
     var selectedModel: Model?
     
