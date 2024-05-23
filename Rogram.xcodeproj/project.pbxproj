@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		89F2AC892BFFD83E00D7BC08 /* RogramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2AC882BFFD83E00D7BC08 /* RogramApp.swift */; };
-		89F2AC8B2BFFD83E00D7BC08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2AC8A2BFFD83E00D7BC08 /* ContentView.swift */; };
 		89F2AC8D2BFFD83F00D7BC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F2AC8C2BFFD83F00D7BC08 /* Assets.xcassets */; };
 		89F2AC902BFFD83F00D7BC08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F2AC8F2BFFD83F00D7BC08 /* Preview Assets.xcassets */; };
 		89F2AC972BFFD89F00D7BC08 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2AC962BFFD89F00D7BC08 /* Model.swift */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		89F2AC852BFFD83E00D7BC08 /* Rogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F2AC882BFFD83E00D7BC08 /* RogramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RogramApp.swift; sourceTree = "<group>"; };
-		89F2AC8A2BFFD83E00D7BC08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89F2AC8C2BFFD83F00D7BC08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89F2AC8F2BFFD83F00D7BC08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89F2AC962BFFD89F00D7BC08 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				89F2AC882BFFD83E00D7BC08 /* RogramApp.swift */,
-				89F2AC8A2BFFD83E00D7BC08 /* ContentView.swift */,
 				89F2AC9C2BFFDF6A00D7BC08 /* Feed.swift */,
 				89F2AC9E2BFFE29A00D7BC08 /* FullScreenDetail.swift */,
 				89F2AC982BFFD92D00D7BC08 /* Card.swift */,
@@ -155,7 +152,6 @@
 				89F2AC9B2BFFDB7600D7BC08 /* ViewModel.swift in Sources */,
 				89F2AC9D2BFFDF6A00D7BC08 /* Feed.swift in Sources */,
 				89F2AC972BFFD89F00D7BC08 /* Model.swift in Sources */,
-				89F2AC8B2BFFD83E00D7BC08 /* ContentView.swift in Sources */,
 				89F2AC892BFFD83E00D7BC08 /* RogramApp.swift in Sources */,
 				89F2AC9F2BFFE29A00D7BC08 /* FullScreenDetail.swift in Sources */,
 				89F2AC992BFFD92D00D7BC08 /* Card.swift in Sources */,
