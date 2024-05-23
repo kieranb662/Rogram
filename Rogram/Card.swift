@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Card: View {
     var model: Model
+    @Environment(ViewModel.self) private var viewModel
     
     var body: some View {
         VStack(spacing: 0) {
@@ -20,6 +21,9 @@ struct Card: View {
                 Color.gray
                     .aspectRatio(contentMode: .fit)
 
+            }
+            .onTapGesture {
+                viewModel.selectedModel = model // present full screen cover
             }
             
             Rectangle()
@@ -49,4 +53,5 @@ struct Card: View {
         url: URL(string: "https://via.placeholder.com/600/92c952")!,
         thumbnailUrl: URL(string: "https://via.placeholder.com/150/92c952")!)
     )
+    .environment(ViewModel())
 }

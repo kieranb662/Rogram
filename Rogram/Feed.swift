@@ -21,6 +21,12 @@ struct Feed: View {
             }
             .navigationTitle("Rogram")
         }
+        .fullScreenCover(item: $viewModel.selectedModel) { model in
+            NavigationStack {
+                FullScreenDetail(model: model)
+            }
+        }
+        .environment(viewModel)
         .onAppear() {
             loadModels()
         }
