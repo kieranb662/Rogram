@@ -12,7 +12,7 @@ struct Card: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            AsyncImage(url: model.thumbnailURL) { image in
+            AsyncImage(url: model.thumbnailUrl) { image in
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -47,6 +47,6 @@ struct Card: View {
         id: 1,
         title: "accusamus beatae ad facilis cum similique qui sunt",
         url: URL(string: "https://via.placeholder.com/600/92c952")!,
-        thumbnailURL: URL(string: "https://via.placeholder.com/150/92c952")!)
+        thumbnailUrl: URL(string: "https://via.placeholder.com/150/92c952")!)
     )
 }

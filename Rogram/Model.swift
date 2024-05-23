@@ -12,5 +12,5 @@ struct Model: Codable, Identifiable {
     var id: Int
     var title: String
     var url: URL
-    var thumbnailURL: URL
+    var thumbnailUrl: URL
 }
